@@ -1,10 +1,8 @@
 .round {
-   
     border-radius: 50%;
-    background: #FF4136;
+    background: #ff4136;
     position: absolute;
     flex: 1 0 auto;
-    
   }
 
 .grow:hover {
@@ -15,7 +13,7 @@
   }
 
   #wave {
-    color: #FF4136;
+    color: #ff4136;
     padding-top: calc((100% - 1127px) / 2);
     height: 14em;
     box-sizing: content-box;
@@ -52,7 +50,7 @@
         width: 15em;
         height: 15em;
         margin-top: 30%;
-    }
+      }
 }
 
 @media screen and (min-width: 766px) 
@@ -61,7 +59,7 @@
         width: 7em;
         height: 7em;
         margin-top: 40%;
-    }
+      }
 }
 @media screen and (min-width: 990px) 
 {
@@ -69,5 +67,5 @@
         width: 10em;
         height: 10em;
         margin-top: 40%;
-    }
+      }
 }
