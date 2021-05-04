@@ -1,11 +1,49 @@
 .round {
    
     border-radius: 50%;
-    background: midnightblue;
+    background: #FF4136;
     position: absolute;
     flex: 1 0 auto;
     
   }
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-left: 8%;
+  }
+
+  #wave {
+    color: #FF4136;
+    padding-top: calc((100% - 1127px) / 2);
+    height: 14em;
+    box-sizing: content-box;
+    background: currentColor;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  #wave svg {
+    display: block;
+    position: relative;
+    top: calc(14em - 1px);
+  }
+
+  footer {
+    height: 50vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
 
 
 @media screen and (max-width: 766px) 
