@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
   </head>
   <body>
     <main>
+      <div id="wave"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="currentColor" fill-opacity="1" d="M0,320L60,293.3C120,267,240,213,360,170.7C480,128,600,96,720,80C840,64,960,64,1080,106.7C1200,149,1320,235,1380,277.3L1440,320L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg></div>
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div class="page" style="border-color: #FF4136;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
-                <!-- Avatar -->
+                  <div class="avatar-wrapper">
+                    <div class="round"></div>
+                    <object class="avatar" data="./assets/images/ava.png" role="img" aria-label="My profile picture"></object>
+                  </div>
               </div>
               <div class="thirteen wide column">
                 <div class="stackable grid">
                   <div class="sixteen wide column">
-                    <h1 class="name">MYKOLA LEVADNYI</h1>
+                    <h1 class="name grow">MYKOLA LEVADNYI</h1>
                         <div class="job">binary-studio-academy 2021</div>
                         <ul class="contacts">
                         <li>
@@ -71,7 +77,7 @@
             </div>
             <div class="row">
               <div class="ten wide column">
-                <h3>Expirience</h3>
+                       <h3 class="grow">Expirience</h3>
                       <ul class="timeline">
                       <li>
                               <em>1<sup>th</sup> January 2021-1<sup>th</sup> February2002</em>
@@ -79,7 +85,7 @@
                               <p>Trying myself in analyzing data. Correlation analize, Regression analysis, Cluster analysis, Factor analysis, etc. But get fired because of lack of knowledge. </p>
                       </li>
                       </ul>
-                      <h3>Personal Life</h3>
+                      <h3 class="grow">Personal Life</h3>
                       <h6>Now</h6>
                       <ul class="timeline">
                       <li>
@@ -121,7 +127,7 @@
               </div>
               <div class="six wide column">
                 <section>
-                  <h3>Languages</h3>
+                  <h3 class="grow">Languages</h3>
                   <p class="tags small">
                   <span class="language" lang="en">ENGLISH</span>
                   <span class="language" lang="uk">УКРАЇНСЬКА</span>
@@ -129,29 +135,29 @@
                   </p>
                   </section>
                   <section>
-                  <h3>SKILLS</h3>
+                  <h3 class="grow">SKILLS</h3>
                   <p> HTML CSS C# JAVASVRIPT .NET FRAMEWORK ASP.NET WEB API MVC SQL SSMS C++ Qt C PYTHON JAVA R GIT ENTITY FRAMEWORK ADO.NET 
                   </p>
                   </section>
                   <section>
-                  <h3>CHARACTER</h3>
+                  <h3 class="grow">CHARACTER</h3>
                   <p>RESPONSIBLE PATIENT HONEST REASONABLE COURTEOUS DISCIPLINED FAIR LABOR PERSISTENT EXPLORER STRAIGHTFORWARD <a href="https://www.16personalities.com/estj-personality" rel="external">EXECUTIVE</a> DEVOTED PEDANTIC CONTENTIOUS RELEVANT EMPATHETIC CONFIDENT CONSISTENT CHALLENGING 
                   </p>
                   </section>
-                  <h3>LIKES😃</h3>
+                  <h3 class="grow">LIKES😃</h3>
                   <p>PROGRAMMING VIDEOGAMES SONGS MOVIES ANIMALS DANCING DRAWING ANIME&#x1F9DA <a href="https://thumbs.gfycat.com/UnlinedAltruisticChafer-size_restricted.gif" rel="external">NARUTO</a> FOOD <a href="https://www.youtube.com/watch?v=pXRviuL6vMY" rel="external">PILOTS</a>
                   </p>
                   </section>
-                  <h3>DISLIKES😞</h3>
+                  <h3 class="grow">DISLIKES😞</h3>
                   <p>
                   DISCOURTESY JAVA WINTER OWN BAD HABITS POLITICS INCOMPETENCE
                   </p>
                   </section>
-                  <h3>WANTS🥺</h3>
+                  <h3 class="grow">WANTS🥺</h3>
                   <p>TO BECOME A HOKAGE &#8226; TO LEARN SOMETHING NEW &#8226; BUT TO HAVE MORE FREE TIME &#8226; TO READ MORE &#8226; TO BE FIT AND HEALTHY 
                   </p>
                   </section>
-                  <h3>CERTIFICATES</h3>
+                  <h3 class="grow">CERTIFICATES</h3>
                   <p><a href="https://www.efset.org/cert/PnrTiW">EF Standard English Test (EF SET) </a>
                   </p>
                   <p><a href="https://coursera.org/share/420c7c45e91e419ab091449766edd46d">HTML, CSS, and Javascript for Web Developers </a>
@@ -167,5 +173,17 @@
         </div>
       </article>
     </main>
+    <div style="height: 50vh;"></div>
+    <script type="text/javascript" src="./assets/scripts/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".avatar-wrapper"), {
+        max: 25,
+        speed: 100
+      });
+    </script>
+    <footer>
+      <em>“Never give up without even trying. Do what you can, no matter how small the effect it may have!” – Onoki</em>
+      <sup><a href="https://www.youtube.com/watch?v=AMRyoLF2CN8">arigato</a></sup>
+    </footer>
   </body>
 </html>
