@@ -1,0 +1,35 @@
+.round {
+   
+    border-radius: 50%;
+    background: midnightblue;
+    position: absolute;
+    flex: 1 0 auto;
+    
+  }
+
+
+@media screen and (max-width: 766px) 
+{
+    .round{
+        width: 15em;
+        height: 15em;
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 766px) 
+{
+    .round{
+        width: 7em;
+        height: 7em;
+        margin-top: 40%;
+    }
+}
+@media screen and (min-width: 990px) 
+{
+    .round{
+        width: 10em;
+        height: 10em;
+        margin-top: 40%;
+    }
+}
